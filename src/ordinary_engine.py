@@ -1097,7 +1097,7 @@ def main():
     # ***********************************************************************************************
     #                             Update these values for your account
     session = berserk.TokenSession('Your Token Here') # lichess bot account token   
-    bot_name = 'Your bot name here'
+    bot_name = 'Bot Name Here'
     max_depth = 4 # number of moves the engine looks ahead, 4 = w -> b -> w - > b
     # For 10 min games, a depth of 4 has always finished within the time limit.
     # For any shorter game, a depth of 3 should be plenty fast with an avg move time of ~1 or so seconds

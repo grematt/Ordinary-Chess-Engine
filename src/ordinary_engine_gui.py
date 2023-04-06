@@ -1174,18 +1174,18 @@ def brd_to_gui(x):
     return (x + 1) * 100
 
 def init_imgs():
-    return [pygame.image.load('res/whiteKing.png'),
-            pygame.image.load('res/whiteQueen.png'),
-            pygame.image.load('res/whiteKnight.png'),
-            pygame.image.load('res/whiteBishop.png'),
-            pygame.image.load('res/whitePawn.png'),
-            pygame.image.load('res/whiteRook.png'),
-            pygame.image.load('res/blackKing.png'),
-            pygame.image.load('res/blackQueen.png'),
-            pygame.image.load('res/blackKnight.png'),
-            pygame.image.load('res/blackBishop.png'),
-            pygame.image.load('res/blackPawn.png'),
-            pygame.image.load('res/blackRook.png')]
+    return [pygame.image.load('../res/whiteKing.png'),
+            pygame.image.load('../res/whiteQueen.png'),
+            pygame.image.load('../res/whiteKnight.png'),
+            pygame.image.load('../res/whiteBishop.png'),
+            pygame.image.load('../res/whitePawn.png'),
+            pygame.image.load('../res/whiteRook.png'),
+            pygame.image.load('../res/blackKing.png'),
+            pygame.image.load('../res/blackQueen.png'),
+            pygame.image.load('../res/blackKnight.png'),
+            pygame.image.load('../res/blackBishop.png'),
+            pygame.image.load('../res/blackPawn.png'),
+            pygame.image.load('../res/blackRook.png')]
 
 def main():
     global game_over
